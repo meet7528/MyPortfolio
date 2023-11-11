@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - MITESH</title>
+  <link rel="stylesheet" href="style_temp.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="nav_link nbox">
+      <a href="#allAbout">About</a>
+      <a href="#allQualifications">Qualifications</a>
+      <a href="#skill_section">Skills</a>
+      <a href="#project_section">Projects</a>
+    </div>
+    <div class="nav_head nbox" onclick="window.scrollTo({top: 0, behavior:'smooth'})">Portfolio Website</div>
+    <div class="nav_button nbox">
+      <abbr title="Recommendation"><button type="button"
+          onclick="document.getElementById('recommendations').scrollIntoView({behavior:'smooth'});">Dig Into My
+          Universe</button></abbr>
+      <abbr title="Contacts"><button type="button"
+          onclick="document.getElementById('contact_section').scrollIntoView({behavior:'smooth'});">Hit me
+          up</button></abbr>
+    </div>
+  </header>
+  <!-- Top Section -->
+  <section class="top_sec">
+    <div class="top_content">
+      <div class="h1">Welcome To My <br> Tech Universe</div><br>
+      <div class="quote">
+        <h3>Quote by Steward Brand - </h3>
+        "Once a new technology rolls over and, if you're not part of the steamroller, you're part of the road."
+      </div>
+    </div>
+  </section>
+  <main>
+    <div class="largest_container">
+      <!-- About Section -->
+      <section class="about section" id="allAbout">
+        <img src="profile_pic.jpg" class="profile_pic" width="60px" alt="profile_pic" />
+        <div class="about_content">
+          <br /><br />
+          <span class="headings">ABOUT</span>
+          <br /><br />
+          <h1>Hi, I'm Mitesh Godne !!</h1><br>
+          <p>
+            I am a full stack developer with 1 year of experience in both
+            application and presentation layers. I have worked on applications
+            and microservices deployed on IBM Cloud. I am an avid user of JavaScript and have
+            created different website.
+          </p>
+        </div>
+        <button type="button" class="gotop" onclick="window.scrollTo({top: 0, behavior:'smooth'});">&#8593</button>
+      </section>
+      <hr>
+
+      <!-- Qualification's Section -->
+      <section class="section" id="allQualifications">
+        <div class="quali_box">
+          <span class="headings">QUALIFICATIONS</span><br /><br />
+          <div class="qualifications">
+            <div class="achedemics common_quali">
+              <h1>Achedemics</h1>
+              <ul type="disc">
+                <li>
+                  Bachelor's of Compyuter Applications= <b>9.51 CGPA</b>
+                </li>
+                <li>
+                  CBSE Class 12th
+                  Science= <b>91.20 %</b>
+                </li>
+                <li>
+                  CBSE Class
+                  10th =<b> 89.70 %</b>
+                </li>
+              </ul>
+            </div>
+            <div class="courses common_quali">
+              <h1>Certifications</h1>
+              <ul type="disc">
+                <li>IBM Frontend Web Development Professional Course</li>
+                <li>DevTown Bootcamp</li>
+                <li>C++ DSA Foundation Course</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+
+      <!-- Skill's Section -->
+      <section class="section" id="skill_section">
+        <div class="skill_box">
+          <span class="headings">SKILLS</span><br /><br />
+          <div class="all_skills">
+            <div class="skill">
+              <img src="html.png" alt="html_icon" />
+              <h6>HTML</h6>
+              <p>2 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="css.png" alt="css_icon" />
+              <h6>CSS</h6>
+              <p>2 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="js.png" alt="js_icon" />
+              <h6>JavaScript</h6>
+              <p>2 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="java.png" alt="java_icon" />
+              <h6>JAVA</h6>
+              <p>1 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="react.png" alt="react_icon" />
+              <h6>React.js</h6>
+              <p>1 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="node.png" alt="node_icon" />
+              <h6>Node.js</h6>
+              <p>1 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="cpp.png" alt="cpp_icon" />
+              <h6>CPP Language</h6>
+              <p>2 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="c.png" alt="c_icon" />
+              <h6>C Language</h6>
+              <p>2 years experience</p>
+            </div>
+
+            <!-- Add more skills here -->
+          </div>
+        </div>
+      </section>
+      <hr>
+
+      <!-- Project's Section -->
+      <section class="section" id="project_section">
+        <div class="slider_btns">
+          <button type="button" class="prev slide" onclick="plusSlides(-1)">&lt</button>
+              <button type="button" class="next slide" onclick="plusSlides(1)">&gt</button>
+        </div>
+        <div class="proj_box">
+          <div id="proj_heading">
+            <span class="headings">PROJECTS</span>
+          </div>
+          <div id="project_container">
+            <div class="slider-carousel">
+
+              <div class=" front project">
+                <div class="proj1">
+                  <img src="urjaDham.png" alt="">
+                  <div class="project-text">
+                    <h2>Urja Dham Website</h2> <br>
+                    <div class="desc">This is a website created with the help of HTML5 and CSS3 for a couple running a
+                      Yoga studio situated in Indore,MP(India).</div><br>
+                    <div class="link">Github Link -<a href="https://meet7528.github.io/UrjaDham/">
+                        https://meet7528.github.io/MG_Clones_1/</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project">
+                <div class="proj2">
+                  <img src="unitConverter.png" alt="">
+                  <div class="project-text">
+                    <h2>Unit Converter</h2><br>
+                    <div class="desc">This is a Website made up of HTML5, CSS3 and JS that helps to convert temperature,
+                      weight and distance into other units.</div><br>
+                    <div class="link">Github Link -<a href="https://meet7528.github.io/MG_UnitConverter/">
+                        https://meet7528.github.io/MG_Clones_1/</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project">
+                <div class="proj3">
+                  <img src="myAmazonClone.png" alt="">
+                  <div class="project-text">
+                    <h2>Amazon Clone</h2><br>
+                    <div class="desc">This is a basic Amazon Clone website that contains links to the real amazon
+                      website so that people can buy things.</div><br>
+                    <div class="link">Github Link -<a href="https://meet7528.github.io/MG_Clones_1/">
+                        https://meet7528.github.io/MG_Clones_1/</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <hr>
+
+      <!-- Recommendation's Section -->
+      <section class="section" id="recommendations">
+        <span class="headings">RECOMMENDATIONS</span> <br><br>
+        <div class="all_recommendations" id="all_recommendations">
+          <div class="recommendation">
+            <span>&#8220</span>
+            Mitesh is a very quick learner of key concepts of Web development.
+            He takes initiative within a team and has potentials to lead the team.
+            <span>&#8221</span><br>
+            <b>-Shubham</b>
+          </div>
+          <div class="recommendation">
+            <span>&#8220</span>
+            Working with Mitesh has been an awesome experience.
+            For any future projects,I would definitely want to work with him again.
+            <span>&#8221</span><br>
+            <b>-Sarthak</b>
+          </div>
+          <div class="recommendation">
+            <span>&#8220</span>
+            Mitesh is highly knowledgable.
+            He always goes the extra step to make sure everything is right.
+            <span>&#8221</span><br>
+            <b>-Krishna</b>
+          </div>
+          <div class="recommendation">
+            <span>&#8220</span>
+            I had worked along with Mitesh during the initial phase of our venture.
+            He will be an asset for any organisation!
+            <span>&#8221</span><br>
+            <b>-Jasmine</b>
+          </div>
+          <div class="recommendation">
+            <span>&#8220</span>
+            I really recommend everyone who sees this message to work with Mitesh as he is very compatible
+            to work with !!
+            <span>&#8221</span><br>
+            <b>-Arun</b>
+          </div>
+
+        </div>
+
+        <div class="flex_center">
+          <fieldset>
+            <legend class="introduction">
+              <h1> Leave a Recommendation </h1>
+            </legend>
+            <input type="text" placeholder=" Name (Optional)" id="viewer_name"> <br />
+            <textarea id="new_recommendation" cols="500" rows="5" placeholder=" Message"></textarea>
+            <div class="flex_center_btn">
+              <button type="button" id="recommend_btn" onclick="addRecommendation()">Submit</button>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+      <hr>
+
+      <!-- Contact's Section -->
+      <section class="section" id="contact_section">
+        <span class="headings">CONTACTS</span> <br><br>
+        <div class="contact">
+          <div class="mail_me">
+            <form action="mailto:godnemitesh12345@gmail.com">
+              <label for="">Email &#128231 : godnemitesh12345@gmail.com</label> <br>
+              <!-- <input type="text" name="name" id="viewer_name_email" placeholder="  Name">
+               <input type="email" name="emial" id="viewer_email" placeholder="  Email">
+               <input type="text" name="message" id="viewer_message" placeholder="  Message"> -->
+              <input type="submit" value="Hit Me Up" id="send_mail">
+            </form>
+          </div>
+          <div class="github_id">
+            Github Profile : <a href="https://github.com/meet7528">github.com/meet7528</a>
+            <br><a href="https://github.com/meet7528" id="contacts_btns">Check Out Github Profile</a>
+          </div>
+          <div class="linkedIn">
+            Linkdin Profile : <a
+              href="https://www.linkedin.com/in/mitesh-godne-31bbbb24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              Mitesh Godne</a>
+            <br><a
+              href="https://www.linkedin.com/in/mitesh-godne-31bbbb24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              id="contacts_btns">Visit LinkedIn Page</a>
+          </div>
+          <div class="phone_no">
+            Phone No. : +91 9669673602
+          </div>
+        </div>
+      </section>
+      <hr>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer">
+          <a href="#allAbout">About</a>
+          <a href="#allQualifications">Qualifications</a>
+          <a href="#skill_section">Skills</a>
+          <a href="#project_section">Projects</a>
+          <a href="#recommendations">Recommendations</a>
+          <a href="#contact_section">Contacts</a>
+        </div>
+        <p> Created with &#9829 <br> Thank You For Visiting <br> Copyright &copy MiteshGodne 2023</p>
+      </footer>
+      <hr>
+    </div>
+  </main>
+
+</body>
+
+</html>
